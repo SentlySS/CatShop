@@ -1,0 +1,147 @@
+/* Reset */
+body, h1, h2, p, ul, li, a{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Nunito", Helvetica, Arial,  sans-serif;
+  color: #222222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #566791 ;
+}
+
+.header nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header nav ul li{
+  background:#99ADDF;
+}
+
+.header nav a {
+  display: block;
+  padding: 10px;
+  font-size: 1.125em;
+  border-radius: 5px;
+  transition: 0.1s;
+  color: white;
+}
+
+.header nav a:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header li + li {
+  margin-left: 20px;
+}
+
+.header .logo a{
+  max-width: 200px;
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #f1c6bc;
+}
+
+.header nav ul li .cart{
+  background: rgb(106, 231, 106);
+  transition: .2s;
+}
+
+.header nav ul li .cart:hover{
+  background: rgb(81, 197, 81);
+}
+
+/* Filtro */
+.typeFilter{
+  font-weight: bold;
+}
+
+.alignFilter{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filtros{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 960px;
+  margin: 10px auto;
+  font-size: 1.125em;
+}
+
+.filtros li{
+  margin-left: 20px;
+}
+
+.filtros ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Produtos */
+.produtos {
+  display: flex;
+  max-width: 960px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.produto{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  max-height: 360px ;
+  background: black;
+  padding: 10px;
+}
+.produto span {
+  display: block;
+  width: 300px;
+}
+
+.img-produto{
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+.ordItem{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 290px;
+  margin: 0 auto;
+  max-height: 50px;
+}
+
+/* Qualidade */
