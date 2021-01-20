@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li, a{
 
 body {
   font-family: "Nunito", Helvetica, Arial,  sans-serif;
-  color: #222222;
+  color: #F2F2F2;
 }
 
 ul {
@@ -33,7 +33,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
-  background: #566791 ;
+  background: #000000;
 }
 
 .header nav ul{
@@ -42,7 +42,7 @@ img {
 }
 
 .header nav ul li{
-  background:#99ADDF;
+  background:#A6CAE0;
 }
 
 .header nav a {
@@ -67,7 +67,7 @@ img {
   font-size: 2.25em;
   font-weight: bold;
   margin: 0 10px;
-  color: #f1c6bc;
+  color: #F2F2F2;
 }
 
 .header nav ul li .cart{
@@ -94,9 +94,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 960px;
-  margin: 10px auto;
+  max-width: 940px;
+  margin: 0 auto;
   font-size: 1.125em;
+  background: #E03F41;
+  padding: 10px 0;
 }
 
 .filtros li{
@@ -120,8 +122,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   max-width: 300px;
-  max-height: 360px ;
-  background: black;
+  max-height: 360px;
+  margin: 5px 10px;
+  background: #E03F41;
   padding: 10px;
 }
 .produto span {
@@ -142,6 +145,10 @@ img {
   max-width: 290px;
   margin: 0 auto;
   max-height: 50px;
+}
+
+.ordItem span {
+  justify-items: start;
 }
 
 /* Qualidade */
