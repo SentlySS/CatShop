@@ -5,6 +5,6 @@
 O CatShop é uma lojinha virtual e single page, ela tem um design simples e minimalista. O projeto, atualmente, é um objeto de estudos onde irei aplicar alguns conhecimentos para complementar a lojinha.
 
 # Features para adicionar
-- Melhor Design
-- Carrinho de compras
-- Descrição dos itens
+* Melhor Design
+* Carrinho de compras
+* Descrição dos itens
