@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/filter.css">
   <link rel="stylesheet" href="./css/styles.css">
   <title>CatShop | Loja de acessórios para gatos</title>
 </head>
@@ -30,31 +31,31 @@
     <span class="typeFilter">Faixa de preços:</span>
     <ul>
       <li>
-        <span>
-          <input type="checkbox">
-          <span>Até 10 reais</span>
-        </span>
+        <label>
+          <input type="checkbox" class="filt" value="15">
+          Até 15 reais
+        </label>
     </li>
 
       <li>
-        <span>
-          <input type="checkbox">
-          <span>Até 20 reais</span>
-        </span>
+        <label>
+          <input type="checkbox" class="filt" value="20">
+          Até 20 reais
+        </label>
       </li>
 
       <li>
-        <span>
-          <input type="checkbox">
-          <span>Até 40 reais</span>
-        </span>
+        <label>
+          <input type="checkbox" class="filt" value="40">
+          Até 40 reais
+        </label>
       </li>
     </ul>
     </div>
   </div>
 
   <div class="produtos" id="#produtos">
-    <div class="produto">
+    <div class="produto" data-value="20">
       <div class="img-produto">
         <a href=""><img src="./img/bebedouro.jpg" alt="bebedouro"></a>
       </div>
@@ -64,7 +65,7 @@
     </div>
 
     </div>
-    <div class="produto">
+    <div class="produto" data-value="15">
       <div class="img-produto">
         <a href=""><img src="./img/massageador.jpg" alt="Bola de captnip"></a>
       </div>
@@ -73,7 +74,7 @@
       <span>R$15,00</span>
     </div>
     </div>
-    <div class="produto">
+    <div class="produto" data-value="40">
       <div class="img-produto">
         <a href=""><img src="./img/kit-spray-catnip.jpg" alt="kit-spray-catnip"></a>
       </div>
@@ -82,7 +83,7 @@
       <span>R$40,00</span>
       </div>
     </div>
-    <div class="produto">
+    <div class="produto" data-value="5">
       <div class="img-produto">
         <a href=""><img src="./img/sache.jpg" alt="sache de catnip"></a>
       </div>
@@ -92,5 +93,7 @@
     </div>
     </div>
   </div>
+
+  <script src="./scripts/filter.js"></script>
 </body>
 </html>
