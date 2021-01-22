@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/filter.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/modal.css">
   <title>CatShop | Loja de acessórios para gatos</title>
 </head>
 
@@ -20,7 +21,7 @@
       <li><a href="#produtos">Produtos</a></li>
       <li><a href="#qualidade">Qualidade</a></li>
       <li><a href="#">Contato</a></li>
-      <li><a class="cart" href="#"><img src="./img/shopping-cart.svg" alt="shopping-cart"></a></li>
+      <li><a class="cart" data-modal="abrir" href="#"><img src="./img/shopping-cart.svg" alt="shopping-cart"></a></li>
     </ul>
   </nav>
 
@@ -85,7 +86,7 @@
       <span>R$40,00</span>
       </div>
     </div>
-    
+
     <div class="produto" data-value="5">
       <div class="img-produto">
         <a href=""><img src="./img/sache.jpg" alt="sache de catnip"></a>
@@ -96,7 +97,12 @@
     </div>
     </div>
   </div>
-
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+    </div>
+  </section>
   <script src="./scripts/filter.js"></script>
+  <script src="./scripts/shopCart.js"></script>
 </body>
 </html>
