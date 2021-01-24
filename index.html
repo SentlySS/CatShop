@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/modal.css">
   <link rel="stylesheet" href="./css/shopCart.css">
+  <meta http-equiv="Cache-control" max-age="604800" content="public">
   <title>CatShop | Loja de acessórios para gatos</title>
 </head>
-
 <body>
 <header class="header">
   <div class="logo">
@@ -25,7 +25,6 @@
       <li><a class="cart" data-modal="abrir" href="#"><img src="./img/shopping-cart.svg" alt="shopping-cart"></a></li>
     </ul>
   </nav>
-
 </header>
 
   <div class="filtros">
@@ -102,86 +101,22 @@
   <section class="modal-container" data-modal="container">
     <div class="modal">
       <button data-modal="fechar" class="fechar">X</button>
-          <div class="table">
-            <div class="layout-inline row th">
-              <div class="col col-pro">Product</div>
-              <div class="col col-price align-center ">
-                Price
-              </div>
-              <div class="col col-qty align-center">QTY</div>
-              <div class="col">VAT</div>
-            </div>
-
-            <div class="layout-inline row">
-
-              <div class="col col-pro layout-inline">
-                <p>Happy Little Critter</p>
-              </div>
-
-              <div class="col col-price align-center ">
-                <p>£59.99</p>
-              </div>
-
-              <div class="col col-qty layout-inline">
-                  <input type="numeric" value="3" />
-              </div>
-
-              <div class="col col-vat">
-                <p>£2.95</p>
-              </div>
-            </div>
-
-            <div class="layout-inline row row-bg2">
-
-              <div class="col col-pro layout-inline">
-                <p>Scared Little Kittie</p>
-              </div>
-
-              <div class="col col-price align-center ">
-                <p>£23.99</p>
-              </div>
-
-              <div class="col col-qty  layout-inline">
-                  <input type="numeric" value="1"/>
-              </div>
-
-              <div class="col col-vat">
-                <p>£1.95</p>
-              </div>
-
-            </div>
-
-             <div class="layout-inline row">
-
-              <div class="col col-pro layout-inline">
-                <p>Curious Little Begger</p>
-              </div>
-
-              <div class="col col-price align-center ">
-                <p>£59.99</p>
-              </div>
-
-              <div class="col col-qty layout-inline">
-                  <input type="numeric" value="3" />
-              </div>
-
-              <div class="col col-vat">
-                <p>£2.95</p>
-              </div>
-            </div>
-
-             <div class="tf">
-                <div class="row layout-inline">
-                 <div class="col">
-                   <p>Total</p>
-                 </div>
-                 <div class="col"></div>
-               </div>
-             </div>
-             <a href="#" class="btn btn-update">Update cart</a>
-        </div>
-
+      <div class="headModal">
+        <h1>ShopCart</h1>
+      </div>
+      <div class="item-info">
+        <span class="nome">Produto</span>
+        <span class="qtd">Qtd</span>
+        <span class="total">Total</span>
+      </div>
+      <div class="item">
+        <span class="nome"></span>
+        <input class="qtd" type="number" placeholder="0">
+        <span class="total">R$</span>
+      </div>
+    </div>
   </section>
+
   <script src="./scripts/filter.js"></script>
   <script src="./scripts/shopCart.js"></script>
 </body>

@@ -17,19 +17,18 @@
 .modal{
   background: white;
   min-width: 300px;
-  padding: 40px;
-  border: 10px solid #fb5;
-  box-shadow: 0 0 0 10px white;
+  max-height: 300px;
+  border: 10px solid black;
   position: relative;
 }
 
 .fechar{
-  top: -30px;
-  right: -30px;
+  top: -20px;
+  right: -20px;
   position: absolute;
-  width: 50px;
-  height: 50px;
-  border: 4px solid white;
+  width: 40px;
+  height: 40px;
+  border: 4px solid black;
   border-radius: 50%;
   background: #e54;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
