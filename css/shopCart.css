@@ -30,8 +30,11 @@ h1{
   justify-content: start;
 }
 
-.item nome{
+.item .nome{
   color: black;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 150px;
 }
 
 .nome{
@@ -45,10 +48,18 @@ h1{
 
 input.qtd{
   max-width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 19px;
 }
 
 .total{
   min-width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item span.total{
