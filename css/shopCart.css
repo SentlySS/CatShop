@@ -17,7 +17,6 @@ h1 {
 }
 
 p {
-  font-size: 1.5em;
   color: #8a8a8a;
 }
 
@@ -31,34 +30,9 @@ input {
 
 /* Part 2 */
 
-.container {
-  max-width: 75em;
-  width: 95%;
-  margin: 40px auto;
-  overflow: hidden;
-  position: relative;
-
-  border-radius: 0.6em;
-  background: #ecf0f1;
-  box-shadow: 0 0.5em 0 rgba(138, 148, 152, 0.2);
-}
-
-.heading {
-  padding: 1em;
-  position: relative;
-  z-index: 1;
-  color: #f7f7f7;
-  background: #f34d35;
-}
-
 .shopCart {
   margin: 2.5em;
   overflow: hidden;
-}
-
-.shopCart.is-closed {
-  height: 0;
-  margin-top: -2.5em;
 }
 
 .table {
@@ -83,7 +57,6 @@ input {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.5em;
 }
 
 .tf {
@@ -115,11 +88,9 @@ input {
   text-align: center;
   width: 17%;
 }
-
-.col-numeric p {
-  font: bold 1.8em helvetica;
+.col-total {
+  padding: 16px;
 }
-
 .col-total p {
   color: #12c8b1;
 }
@@ -155,26 +126,10 @@ input {
   max-width: 2.6em;
 }
 
-
-a.qty {
-  width: 1em;
-  line-height: 1em;
-  border-radius: 2em;
-  font-size: 2.5em;
-  font-weight: bold;
-  text-align: center;
-  background: #43ace3;
-  color: #fff;
-}
-
-a.qty:hover {
-  background: #3b9ac6;
-}
-
 .btn {
   padding: 10px 30px;
   border-radius: 0.3em;
-  font-size: 1.4em;
+  font-size: 22px;
   font-weight: bold;
   background: #43ace3;
   color: #fff;
@@ -187,7 +142,6 @@ a.qty:hover {
 
 .btn-update {
   float: right;
-  margin: 0 0 1.5em 0;
 }
 
 .transition {
