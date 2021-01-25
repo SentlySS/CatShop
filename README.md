@@ -11,5 +11,5 @@ O CatShop é uma lojinha virtual e single page, ela tem um design simples e mini
 
 # Features para adicionar
 * Melhor Design
-* Carrinho de compras
+* Carrinho de compras completo
 * Descrição dos itens
