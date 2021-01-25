@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/modal.css">
   <link rel="stylesheet" href="./css/shopCart.css">
-  <meta http-equiv="Cache-control" max-age="604800" content="public">
+  <meta http-equiv="Cache-control" content="public">
   <title>CatShop | Loja de acessórios para gatos</title>
 </head>
 <body>
@@ -63,7 +63,7 @@
       </div>
     <div class="ordItem">
       <span>Bebedouro</span>
-      <span class="buy">R$20,00 <a href="">Comprar</a></span>
+      <span class="buy">R$20,00 <a class="select" data-ordem="0" href="#">Comprar</a></span>
     </div>
     </div>
 
@@ -73,7 +73,7 @@
       </div>
     <div class="ordItem">
       <span>Massageador para gatos</span>
-      <span class="buy">R$15,00<a href="">Comprar</a></span>
+      <span class="buy">R$15,00<a class="select" data-ordem="1" href="#">Comprar</a></span>
     </div>
     </div>
 
@@ -83,7 +83,7 @@
       </div>
       <div class="ordItem">
       <span>Kit Spray com brinquedo de catnip</span>
-      <span class="buy">R$40,00<a href="">Comprar</a></span>
+      <span class="buy">R$40,00<a class="select" data-ordem="2" href="#">Comprar</a></span>
       </div>
     </div>
 
@@ -93,7 +93,7 @@
       </div>
     <div class="ordItem">
       <span>Sache de catnip</span>
-      <span class="buy">R$5,00<a href="">Comprar</a></span>
+      <span class="buy">R$5,00<a class="select" data-ordem="3" href="#">Comprar</a></span>
     </div>
     </div>
   </div>
@@ -111,13 +111,15 @@
       </div>
       <div class="item">
         <span class="nome">Kit Spray com brinquedo de catnip</span>
+        <label>
         <input class="qtd" type="number" placeholder="0">
+        </label>
         <span class="total">R$40</span>
       </div>
     </div>
   </section>
-
   <script src="./scripts/filter.js"></script>
-  <script src="./scripts/shopCart.js"></script>
+  <script src="./scripts/cart.js"></script>
+  <script src="./scripts/modal.js"></script>
 </body>
 </html>

@@ -1,7 +1,6 @@
 const abrirModal = document.querySelector('[data-modal="abrir"]');
 const fecharModal = document.querySelector('[data-modal="fechar"]');
 const container = document.querySelector('[data-modal="container"]');
-
 abrirModal.addEventListener('click', mudarModal);
 fecharModal.addEventListener('click', mudarModal);
 container.addEventListener('click', fechaModal);
