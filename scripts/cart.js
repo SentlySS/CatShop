@@ -1,9 +1,3 @@
-const spanName = document.createElement('span');
-const spanTotal = document.createElement('span');
-const input = document.createElement('input');
-const carrinho = document.querySelector('.item');
-input.type="number";
-input.placeholder="0";
 const select = document.querySelectorAll("[data-ordem]");
 const shopProduct = [
  {
@@ -18,7 +12,7 @@ const shopProduct = [
   },
   {
     num: 2,
-    name:'Kit Spray com brinquedo de catnip',
+    name:'Kit Spray com brinquedo',
     price: 40
   },
   {
@@ -29,20 +23,30 @@ const shopProduct = [
 ];
 
 select.forEach((e) => {
-  let newItem = parseInt(e.dataset.ordem);
+  let newValue = parseInt(e.dataset.ordem);
   e.addEventListener('click', addItem);
     function addItem(e){
       e.preventDefault();
-        for(i=0; i < shopProduct.length; i++){
-          if(newItem === shopProduct[i].num){
-            console.log(shopProduct[i].name);
-          }
-        }
-    }
-})
-carrinho.appendChild(spanName);
+      const spanName = document.createElement('span');
+      const spanTotal = document.createElement('span');
+      const input = document.createElement('input');
+      const carrinho = document.querySelector('.item');
+      input.type="number";
+      input.placeholder="0";
+      carrinho.appendChild(spanName);
       carrinho.appendChild(input);
       carrinho.appendChild(spanTotal);
       spanName.classList.add('nome');
       input.classList.add('qtd');
       spanTotal.classList.add('total');
+      
+        for(i=0; i < shopProduct.length; i++){
+          if(newValue=== shopProduct[i].num){
+            let textNode = document.createTextNode(shopProduct[i].name);
+            let priceNode = document.createTextNode(shopProduct[i].price);
+            spanName.appendChild(textNode);
+            spanTotal.appendChild(priceNode);
+          }
+        }
+    }
+})

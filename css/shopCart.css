@@ -28,6 +28,8 @@ h1{
 .item{
   display: flex;
   justify-content: start;
+  flex-wrap: wrap;
+  max-width: 300px;
 }
 
 .item .nome{
@@ -35,6 +37,7 @@ h1{
   display: flex;
   flex-wrap: wrap;
   max-width: 150px;
+  align-items: center;
 }
 
 .nome{
