@@ -50,3 +50,11 @@ select.forEach((e) => {
         }
     }
 })
+
+//aviso de adição
+const aviso = document.querySelectorAll('[data-modal="abrirCompra"]');
+aviso.forEach((e) => {
+  e.addEventListener('click', function (){
+    alert('Produto adicionado ao carrinho')
+  });
+})

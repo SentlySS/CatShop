@@ -17,7 +17,7 @@
 .modal{
   background: white;
   min-width: 300px;
-  max-height: 300px;
+  min-height: 300px;
   border: 10px solid black;
   position: relative;
 }
