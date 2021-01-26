@@ -63,7 +63,7 @@
       </div>
     <div class="ordItem">
       <span>Bebedouro</span>
-      <span class="buy">R$20,00 <a class="select" data-ordem="0" href="#">Comprar</a></span>
+      <span class="buy">R$20,00 <a class="select" data-modal="abrirCompra" data-ordem="0" href="#">Comprar</a></span>
     </div>
     </div>
 
@@ -73,7 +73,7 @@
       </div>
     <div class="ordItem">
       <span>Massageador para gatos</span>
-      <span class="buy">R$15,00<a class="select" data-ordem="1" href="#">Comprar</a></span>
+      <span class="buy">R$15,00<a class="select" data-modal="abrirCompra"  data-ordem="1" href="#">Comprar</a></span>
     </div>
     </div>
 
@@ -83,7 +83,7 @@
       </div>
       <div class="ordItem">
       <span>Kit Spray com brinquedo de catnip</span>
-      <span class="buy">R$40,00<a class="select" data-ordem="2" href="#">Comprar</a></span>
+      <span class="buy">R$40,00<a class="select" data-modal="abrirCompra" data-ordem="2" href="#">Comprar</a></span>
       </div>
     </div>
 
@@ -93,7 +93,7 @@
       </div>
     <div class="ordItem">
       <span>Sache de catnip</span>
-      <span class="buy">R$5,00<a class="select" data-ordem="3" href="#">Comprar</a></span>
+      <span class="buy">R$5,00<a class="select" data-modal="abrirCompra" data-ordem="3" href="#">Comprar</a></span>
     </div>
     </div>
   </div>
@@ -111,6 +111,13 @@
       </div>
       <div class="item">
       </div>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="containerCompra">
+    <div class="modal">
+      <span>Produto adicionado ao carrinho</span>
+      <button data-modal="fecharCompra" class="addCart">Legal.</button>
     </div>
   </section>
   <script src="./scripts/filter.js"></script>

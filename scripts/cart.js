@@ -30,16 +30,16 @@ select.forEach((e) => {
       const spanName = document.createElement('span');
       const spanTotal = document.createElement('span');
       const input = document.createElement('input');
-      const carrinho = document.querySelector('.item');
+      const cart = document.querySelector('.item');
       input.type="number";
       input.placeholder="0";
-      carrinho.appendChild(spanName);
-      carrinho.appendChild(input);
-      carrinho.appendChild(spanTotal);
+      cart.appendChild(spanName);
+      cart.appendChild(input);
+      cart.appendChild(spanTotal);
       spanName.classList.add('nome');
       input.classList.add('qtd');
       spanTotal.classList.add('total');
-      
+
         for(i=0; i < shopProduct.length; i++){
           if(newValue=== shopProduct[i].num){
             let textNode = document.createTextNode(shopProduct[i].name);
