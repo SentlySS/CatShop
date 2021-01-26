@@ -14,3 +14,11 @@ O CatShop é uma lojinha virtual e single page, ela tem um design simples e mini
 * Melhor Design
 * Carrinho de compras completo
 * Descrição dos itens
+
+# Como utilizar ?
+```
+- Clone esse repositório ou baixe o zip:
+$ git clone https://github.com/SentlySS/CatShop CatShop
+
+- Execute o index.html, de preferência com live server.
+```
