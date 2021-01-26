@@ -3,7 +3,7 @@
 
 # Visão Geral
 O CatShop é uma lojinha virtual e single page, ela tem um design simples e minimalista. O projeto, atualmente, é um objeto de estudos onde irei aplicar alguns conhecimentos(javascript) para complementar a lojinha.
-![](https://imgur.com/a/swINEE5.jpeg)
+![](https://imgur.com/gallery/swINEE5.jpg)
 
 # Features que o site conta
 * Filtro de preços
